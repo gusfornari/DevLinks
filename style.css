@@ -1,0 +1,28 @@
+body {
+  /* background: color image reapeat position/size*/
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+#box {
+  width: 100%;
+  max-width: 588px;
+  /* margin e padding funcionam da mesma forma que o background, podendo botar todos em uma linha de codigo, mas de forma um pouco diferente.quando colocamos apenas duas propriedades, a primeira é aplicada em cima e em baixo e a segundo nas laterais
+  se temos 3 propriedades, ele aplica a primeira em cima, a segunda nas laterais e a terceira em baixo
+  agora se temos as 4 propriedades, funciona como um relogio, sendo a primeira aplicada em cima, a segunda na lateral direita, terceira em baixo e a quarta na lateral esquerda. essas regras tambem servem para o padding.*/
+  margin: 58px auto 0px;
+  padding: 0 24px;
+}
+
+#profile {
+  text-align: center;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#name {
+  font-family: "Inter", serif;
+  font-weight: 500;
+  color: white;
+}
